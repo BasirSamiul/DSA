@@ -1,3 +1,5 @@
+// Big O(n) = Linear time
+
 const compressAllBoxes = boxes => {
     boxes.forEach(box => console.log(box));
 }
