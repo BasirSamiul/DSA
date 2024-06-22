@@ -12,3 +12,4 @@ function containsCommonItem(arr_one, arr_two){
 }
 const result = containsCommonItem(array_1, array_2);
 console.log(result);
+//It contains Big(N^2)
