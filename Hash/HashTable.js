@@ -14,4 +14,9 @@ class HashTable{
 
 const myHashTable = new HashTable(50);
 myHashTable.set('grapes', 10000);
+<<<<<<< HEAD
 myHashTable.get('grapes');//function calling
+=======
+myHashTable.get('grapes');
+//hello pc
+>>>>>>> b7582cd664db93f9e81e389cd4d9f8690024ddee
