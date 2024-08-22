@@ -13,4 +13,5 @@ class HashTable {
 }
 
 const myHashTable = new HashTable(50);
+// Just create a demo comment 
 myHashTable._hash('grapes');
