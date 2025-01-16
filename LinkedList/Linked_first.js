@@ -27,9 +27,19 @@ class LinkedList{
         this.length++;
         return this;
     }
+    printList(){
+        const array = [];
+        let currentNode = this.head;
+        while(currentNode!== null){
+            array.push(currentNode.value);
+            currentNode = currentNode.next;
+        }
+        return array;
+    }
 }
 
 const myLinkedList = new LinkedList(10);
 myLinkedList.append(5);
+myLinkedList.append(15);
 myLinkedList.prepend(20);
-console.log(myLinkedList);
+console.log(myLinkedList.printList());
