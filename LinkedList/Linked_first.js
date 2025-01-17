@@ -62,6 +62,13 @@ class LinkedList{
         }
         return currentNode;
     }
+    remove(index){
+        const leader = this.traverseToIndex(index-1);
+        const unwantedNode = leader.next;
+        leader.next = unwantedNode.next;
+        this.length--;
+        return this.printList();
+    }
 }
 
 const myLinkedList = new LinkedList(10);
