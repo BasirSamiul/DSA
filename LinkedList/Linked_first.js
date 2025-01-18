@@ -76,5 +76,6 @@ myLinkedList.append(5);
 myLinkedList.append(15);
 myLinkedList.prepend(20);
 // myLinkedList.insert(1,100);
-console.log(myLinkedList.insert(1,100));
-// console.log(myLinkedList);
+console.log(myLinkedList.printList());
+myLinkedList.remove(2);
+console.log(myLinkedList.printList());
